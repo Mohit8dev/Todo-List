@@ -1,0 +1,28 @@
+.header-container{
+    max-width: 100%;
+    padding: 10px 20px;
+}
+.header-content{
+    display: flex;
+    padding: 10px 20px;
+    background-color: #1A1A1D;
+    border-radius: 10px;
+}
+.header-content h1{
+    color: #C3073F;
+    margin: 0 auto;
+    padding: 0px 15px;
+    font-size: 40px;
+    font-weight: 400;
+    border-bottom: 2px solid #C3073F;
+}
+
+@media only screen and (max-width: 700px) {
+    .header-container{
+        margin : 0px;
+        padding: 10px;
+    }
+    .header-content{
+        padding: 10px;
+    }
+}

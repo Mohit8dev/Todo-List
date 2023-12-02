@@ -1,0 +1,11 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: rgb(149,7,64);
+  background: linear-gradient(0deg, rgba(149,7,64,0.9612219887955182) 0%, rgba(26,26,26,0.9500175070028011) 21%);
+  background-attachment: fixed;
+}

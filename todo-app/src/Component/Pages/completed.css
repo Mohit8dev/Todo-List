@@ -1,0 +1,65 @@
+
+.show-items{
+    margin-top: 30px;
+}
+.completed-container{
+    margin :20px auto;
+    border-radius: 20px;
+    padding: 30px 50px;
+    max-width: 800px;
+    box-shadow: inset;
+    background-color: #1A1A1D;
+}
+.completed-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.completed-content h1{
+    color: #C3073F;
+}
+.completed-items{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 10px;
+    margin:10px;
+    font-size: 18px;
+    background: #4E4E50;
+    border-radius: 8px;
+}
+.completed-items p{
+    color: white;
+    width: 300px;
+    margin: 0 5px;
+    font-family: sans-serif;
+    font-weight: 200;
+    padding: 10px;
+}
+.completed-items button{
+    padding: 0px 16px;
+    font-size: 20px;
+    color: red;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.Delete-all{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 0px auto;
+}
+.Delete-all button{
+    color: #C3073F;
+    padding: 10px 20px;
+    font-size: 15px;
+    background: transparent;
+    border-radius: 20px;
+    border: 1px solid #C3073F;
+}
+.Delete-all:hover button{
+    cursor: pointer;
+    background-color: #C3073F;
+    color: black;
+}

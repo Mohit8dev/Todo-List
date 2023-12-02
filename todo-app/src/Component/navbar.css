@@ -1,0 +1,37 @@
+.navbar-container{
+    max-width: 100%;
+    padding: 10px 20px;
+}
+.navbar-content{
+    display: flex;
+    padding: 10px 20px;
+    background-color: #1A1A1D;
+    border-radius: 10px;
+}
+
+.Links{
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4E4E50;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.Links:hover{
+    background-color: #C3073F;
+}
+
+.Links:active{
+    background-color: #C3073F;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .navbar-container{
+        margin : 0px;
+        padding: 10px;
+    }
+    .navbar-content{
+        padding: 10px;
+    }
+}
